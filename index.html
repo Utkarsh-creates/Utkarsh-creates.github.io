@@ -1,381 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" type="image/x-icon" href="assets/images/Favicon.ico">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
 
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
+    <!-- Webpage Title -->
     <title>Utkarsh Mishra</title>
-<!--
-Reflux Template
-  https://templatemo.com/tm-531-reflux
--->
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
-  </head>
-
-  <body>
-    <div id="page-wraper">
-      <!-- Sidebar Menu -->
-      <div class="responsive-nav">
-        <i class="fa fa-bars" id="menu-toggle"></i>
-        <div id="menu" class="menu">
-          <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
-            <div class="image">
-              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
-            </div>
+    
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
             
-            <div class="author-content">
-              <h4>Utkarsh Mishra</h4>
-              <span>3D Artist</span>
-            </div>
-            <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">What I’m good at</a></li>
-                <li><a href="#section3">My Work</a></li>
-          </div>
-        </div>
-      </div>
+            <!-- Image Logo -->
+            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>   -->
 
-      <section class="section about-me" data-section="section1">
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+             <a class="navbar-brand logo-text page-scroll" href="index.html">Utkarsh Mishra</a> 
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#services">Services</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item page-scroll" href="project.html">Project Details</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
+                        </div>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <span class="nav-item social-icons">
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-github fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
         <div class="container">
-          <div class="section-heading">
-            <h2>About Me</h2>
-            <div class="line-dec"></div>
-            <span></span>
-          </div>
-          <div class="left-image-post">
             <div class="row">
-              <div class="col-md-6">
-                <div class="left-image">
-                  <img src="assets/images/left-image.jpg" alt="" />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-text">
-                  <h4>Personal Information</h4>
-                  <p>
-                    I'm from India. I'm a science student who also enjoys creating 3D artwork. I have the idea to combine my artistic abilities with my scientific and mathematical knowledge to produce some tools useful for VFX and forthcoming metaverse projects.
-                  </p>
-                  <div class="white-button">                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="right-image-post">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h1 class="h1-large">Creating Beautiful 3D art and VFX</h1>
+                        <a class="btn-solid-lg page-scroll" href="#about">Download Resume</a>
+                        <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- About-->
+    <div id="about" class="basic-1 bg-gray">
+        <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                <div class="left-text">
-                  <h4>Work Information</h4>
-                  <p>For three years, I have been creating 3D art. I am passionate about the procedure and I relish the challenges that arise while crafting a lovely artwork.</p>
-                  <div class="white-button">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-image">
-                  <img src="assets/images/right-image.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+                <div class="col-lg-4">
+                    <div class="text-container first">
+                        <h2>Hi there I'm Utkarsh Mishra,</h2>
+                        <p>And I love to create beautiful 3D Artwork, Product design, animation and VFX for my customers. I love going through the entire process with the customer from concept, to design and then development and launch. Checkout my featured page<a class="blue no-line" href="https://www.instagram.com/thepolygonic/" target="_blank"> Polygonic.</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container second">
+                        <div class="time">2024 - 2028</div>
+                        <h6>SRMIST Kattankulathur, Chennai</h6>
+                        <p>Bachelor of Technology in Electronics and Instrumentation Engineering</p>
+                        <div class="time">2021 - 2022</div>
+                        <h6>Council for the Indian School Certificate Examinations</h6>
+                        <p>City Montessori School Lucknow Class 10th</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container third">
+                        <div class="time">2023 - 2024</div>
+                        <h6>Central Board of Secondary Education</h6>
+                        <p>The Avadh School Class 12th</p>
+                        <!-- <div class="time">2016 - 2017</div>
+                        <h6>Junior Web Designer</h6>
+                        <p>Junior web designer for small web agency</p>
+                    </div> end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of about -->
 
-      <section class="section my-services" data-section="section2">
+
+    <!-- Services -->
+    <div id="services" class="basic-2">
         <div class="container">
-          <div class="section-heading">
-            <h2>What I’m good at?</h2>
-            <div class="line-dec"></div>
-            <span
-              >A good artist never stops learning. That sums up my artistic philosophy since I believe that learning advances you daily. Strong foundational skills and aptitude for more complex tasks make you incredibly useful.</span
-            >
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="first-service-icon service-icon"></div>
-                <h4>Software &amp; Tools</h4>
-                <p>
-                  Blender is the main piece of software I use to create art. It is among my favourite free tools for creating art. Alongside photorealism tools like Sketchfab, Maxtree, Polligon, and many others. Allowing me to get good r esults.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="second-service-icon service-icon"></div>
-                <h4>Use of the Cloud</h4>
-                <p>
-                  Unffortunelty My computer lacks a graphics card. So, to produce my work, I use cloud rendering services like Google Collab. I still have the ability to render animations despite making less creative decisions during the process. </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="third-service-icon service-icon"></div>
-                <h4>Problem Solving</h4>
-                <p>
-                  My experience with nature scenes helps me to tackle problems which comes in complex secnes. The hurdels are a different pe project but they help me to improve with this skill.
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Offered services</h2>
+                    <p class="p-heading">From 3D art, animation, product design to VFX and Video Editing</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <i class="far fa-gem"></i>
+                        <h4>Computer Generated Imagery</h4>
+                        <p>Using <a class="blue no-line" href="https://blender.org" target=”_blank”>Blender</a> and modern modelling Technqiues. Desging prodcuts and making animations. For brands and companies.</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <i class="fas fa-code"></i>
+                        <h4>Video Editing</h4>
+                        <p>Advertisments, cinmatic product presentation or StoryTelling. Using <a class="blue no-line" href="https://www.adobe.com/in/products/premiere.html" target=”_blank”>Adobe Premier Pro</a>. Its all about the best shots and edits.</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <i class="fas fa-tv"></i>
+                        <h4>Visual Effects</h4>
+                        <p>Integrating CGI objects in real videos makes it more immersive. Using <a class="blue no-line" href="https://blender.org" target=”_blank”>Blender</a> to track and composite for the best output.</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of services -->
 
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="fourth-service-icon service-icon"></div>
-                <h4>Constant Gorwth</h4>
-                <p>
-                  I always try to integrate new tools and techniques in my work
-                  as they allow me to increase my productivity and helps me to create
-                  industry level outputs with less time and energy need to be spent.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="section my-work" data-section="section3">
+    <!-- Details -->
+	<div class="split">
+		<div class="area-1">
+		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2 bg-gray">
+            <div class="container">    
+                <div class="row">
+                    <div class="col-lg-12">     
+                        
+                        <!-- Text Container -->
+                        <div class="text-container">
+                            <h2>Soft Skills</h2>
+                            <p>Communication, teamwork, problem solving and audience interaction</p>
+                            <h5>Tools Used</h5>
+                            <p><a class="blue no-line" href="https://blender.org" target=”_blank”>Blender</a> and <a class="blue no-line" href="https://www.adobe.com/in/products/premiere.html" target=”_blank”>Adobe Premier Pro</a> being the primary tools.I also use <a class="blue no-line" href="https://www.capturingreality.com/" target=”_blank”>Reality Capture</a>, AI tools like <a class="blue no-line" href="https://github.com/chaiNNer-org/chaiNNer" target=”_blank”>Chainner</a>, <a class="blue no-line" href="https://github.com/n00mkrad/flowframes" target=”_blank”>Flowframes</a> and<a class="blue no-line" href="https://openai.com/index/hello-gpt-4o/" target=”_blank”> GPT-4o</a></p>
+                            <h5>SKILLS</h5>
+                            <p>I am familiar with <a class="blue no-line" href="https://blender.org" target=”_blank”>Blender</a> and <a class="blue no-line" href="https://www.adobe.com/in/products/premiere.html" target=”_blank”>Adobe Premier Pro</a>. I can design prodcuts, Advertisments and animations. Social Media Videos and Videography.</p>
+                            
+                            <div class="icons-container">
+                                <a href="https://blender.org" target="_blank"><img src="images/details-icon-blender.png" alt="alternative"></a>
+                                <a href="https://www.adobe.com/in/products/premiere.html" target="_blank"><img src="images/details-icon-premier.png" alt="alternative"></a>
+                                <a href="https://www.capturingreality.com/" target="_blank"><img src="images/details-icon-rc.png" alt="alternative"></a>
+                                <a href="https://github.com/n00mkrad/flowframes" target="_blank"><img src="images/details-icon-ff.png" alt="alternative"></a>
+                                <a href="https://github.com/chaiNNer-org/chaiNNer" target="_blank"><img src="images/details-icon-chain.png" alt="alternative"></a>
+                                <a href="https://openai.com/index/hello-gpt-4o/" target="_blank"><img src="images/details-icon-gpt.png" alt="alternative"></a>
+                            </div> <!-- end of icons-container -->
+                        </div> <!-- end of text-container -->
+                        <!-- end of text container -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+		</div> <!-- end of area-2 -->
+    </div> <!-- end of split -->
+    <!-- end of details -->
+
+
+    <!-- Projects -->
+    <div id="projects" class="basic-3">
         <div class="container">
-          <div class="section-heading">
-            <h2>My Work</h2>
-            <div class="line-dec"></div>
-            <span
-              >All the artwork here are original, use of any 3rd-party source is mentioned.<b><br> For more information contact me on: utkarshmishra72005@gmail.com</b></span
-            >
-          </div>
-          <div class="row">
-            <div class="isotope-wrapper">
-              <form class="isotope-toolbar">
-                <label
-                  ><input
-                    type="radio"
-                    data-type="*"
-                    checked=""
-                    name="isotope-filter"
-                  />
-                  <span>all</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="people"
-                    name="isotope-filter"
-                  />
-                  <span>Space</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="nature"
-                    name="isotope-filter"
-                  />
-                  <span>Models</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="animals"
-                    name="isotope-filter"
-                  />
-                  <span>City</span></label
-                >
-              </form>
-              <div class="isotope-box">
-                <div class="isotope-item" data-type="nature">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-01.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-01.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>The Old Home</h4>
-                      <span>Made Using Blender, M-tree and Internet aseets</span>
-                    </figcaption>
-                  </figure>
-                </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Blender Projects</h2>
+                    <p class="p-heading">Listed below are some of the most representative projects I've worked on. They range from animaitons for Advertisments to advanced rigid body simulations.</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/The-Car-ad" target="_blank">
+                                <img class="img-fluid" src="images/project-1.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p>Ths model is from <a class="blue no-line" href="https://www.jeanyanonline.com/c63" target=”_blank”>Jiyan Online.</a> The camera, lighting and animation is done by me. <a class="blue no-line" href="https://www.youtube.com/watch?v=s0yiMcP1hPg" target=”_blank”>Watch the full animation.</a> For project file <a class="blue no-line" href="project.html">Click</a> here.</p>
+                    </div> <!-- end of text-container -->
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/A-Frame-Cabin" target="_blank">
+                                <img class="img-fluid" src="images/project-2.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p>The Cabin the scene are all made by me. Used the G-Scatter addon and its nature assets. For project file<a class="blue no-line" href="https://github.com/Utkarsh-creates/A-Frame-Cabin" target="_blank"> Click</a> here.</p>
+                    </div> <!-- end of text-container -->
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/luxury-perfume" target="_blank">
+                                <img class="img-fluid" src="images/project-3.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p>Product Design. This Perfume is designed using modern technqiues for best results. For project file<a class="blue no-line" href="https://github.com/Utkarsh-creates/luxury-perfume" target="_blank"> Click</a> here.</p>
+                    </div> <!-- end of text-container -->
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/airplane" target="_blank">
+                                <img class="img-fluid" src="images/project-4.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p>Boeing 777. A model designed in Blender, designed to show the livery of an airline. For project file<a class="blue no-line" href="https://github.com/Utkarsh-creates/airplane" target="_blank"> Click</a> here.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of projects -->
 
-                <div class="isotope-item" data-type="people">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-02.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-02.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>The Alive Endoplanet</h4>
-                      <span>Inpired from Andrew Price and texutres from Nasa</span>
-                    </figcaption>
-                  </figure>
-                </div>
 
-                <div class="isotope-item" data-type="animals">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-03.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-03.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>The Salesforce Tower</h4>
-                      <span>Made using OpenstreetMap</span>
-                    </figcaption>
-                  </figure>
-                </div>
+    <!-- Works -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/Rigid-Glass" target="_blank">
+                                <img class="img-fluid" src="images/work-1.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p><strong>Glass smashing effect</strong>  using real physics inside of Blender.<a class="blue no-line" href="https://github.com/Utkarsh-creates/Rigid-Glass" target="_blank"> details</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/Solar-eclipse" target="_blank">
+                                <img class="img-fluid" src="images/work-2.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p><strong>Solar-Eclipse</strong> made inside of Blender. Using Evee for fast and acurate results. <a class="blue no-line" href="https://github.com/Utkarsh-creates/Solar-eclipse" target="_blank">details</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="project.html">
+                                <img class="img-fluid" src="images/work-3.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p><strong>Moonlight</strong>  <a class="blue" href="project.html">details</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/Planet" target="_blank">
+                                <img class="img-fluid" src="images/work-4.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p><strong>Procedural Planet</strong> Inside of Blender using procedural materials for unique look and easy costumisation.<a class="blue no-line" href="https://github.com/Utkarsh-creates/Planet" target="_blank"> details</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/Fancy-Perfume" target="_blank">
+                                <img class="img-fluid" src="images/work-5.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p><strong>Fancy Pefume Bottle</strong> in Blender designed to using non-distructive, procedural and modern technqiues.<a class="blue no-line" href="https://github.com/Utkarsh-creates/Fancy-Perfume" target="_blank"> details</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://github.com/Utkarsh-creates/Designer-Chair" target="_blank">
+                                <img class="img-fluid" src="images/work-6.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p><strong>Designer Chair</strong> using modern modelling methods to design this chair.<a class="blue no-line" href="https://github.com/Utkarsh-creates/Designer-Chair" target="_blank"> details</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of works -->
 
-                <div class="isotope-item" data-type="people">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-04.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-04.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>The Second Home</h4>
-                      <span>Assets by Chuck CG</span>
-                    </figcaption>
-                  </figure>
-                </div>
 
-                <div class="isotope-item" data-type="nature">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-05.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-05.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>The Søborg Chair</h4>
-                      <span>Inpiration from Andrew Price's Chair Course</span>
-                    </figcaption>
-                  </figure>
-                </div>
+    <!-- Section Divider -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <hr class="section-divider">
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+    <!-- end of section divider -->
 
-                <div class="isotope-item" data-type="animals">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-06.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-06.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>The MClaren</h4>
-                      <span>Assets from BlenderKit</span>
-                    </figcaption>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    <!-- Contact -->
+    <div id="contact" class="form-1 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Contact details</h2>
+                    <p class="p-heading">For any type of online project, get in touch with me. The fastest way is to send me your message using the following email <a class="blue no-line" href="mailto:utkarshmishra72005@gmail.com">utkarshmishra72005@gmail.com</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->  
+    <!-- end of contact -->
 
+
+    <!-- Footer -->
+    <div class="footer bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="social-container">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in -f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <!-- <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span> -->
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-youtube fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> <!-- end of social-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+    
+    <!-- Copyright -->
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © <a class="no-line" href="#your-link">Utkarsh Mishra</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->    
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->	
     <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
-
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
-
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
-
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
-  </body>
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
 </html>
