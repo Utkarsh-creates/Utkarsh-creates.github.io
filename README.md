@@ -12,4 +12,4 @@ I'm Utkarsh, an Electronics and Instrumentation Engineering student with a passi
 - **GitHub Pages**: For hosting this website.
 
 ## Contact
-Feel free to reach out if you have any questions or would like to collaborate. You can find me on [![LinkedIn](https://www.linkedin.com/in/utkarsh-mishra-0a31b0229/)
+Feel free to reach out if you have any questions or would like to collaborate. You can find me on [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarsh-mishra-0a31b0229/)
