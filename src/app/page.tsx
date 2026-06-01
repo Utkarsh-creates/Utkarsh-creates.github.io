@@ -68,7 +68,7 @@ export default function Home() {
           fill
           priority
           sizes="(max-width: 768px) 100vw, 58vw"
-          className="object-cover object-left filter grayscale contrast-125 transition-transform duration-300 ease-out"
+          className="object-cover object-center md:object-left filter grayscale contrast-125 transition-transform duration-300 ease-out"
           style={{
             transform: `translate(${parallax.x * 0.5}px, ${parallax.y * 0.5}px) scale(1.05)`,
           }}

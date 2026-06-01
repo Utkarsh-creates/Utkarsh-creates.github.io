@@ -212,7 +212,7 @@ export default function Works() {
         {/* RIGHT PANEL: SYSTEM TELEMETRY CONTROL PANEL (70%) */}
         <section className="w-full md:w-[70%] bg-[#0e0e10]/90 backdrop-blur-sm flex flex-col">
           {/* Header Metadata */}
-          <div className="p-6 border-b border-[#444748] flex justify-between items-center bg-[#131315]">
+          <div className="p-6 border-b border-[#444748] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 bg-[#131315]">
             <div className="flex flex-col gap-1">
               <span className="font-mono-sm text-[10px] text-on-surface-variant/40 tracking-wider">
                 ACTIVE_STREAM
@@ -225,7 +225,7 @@ export default function Works() {
               href={activeProject.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 border border-primary text-primary font-mono-sm text-xs hover:bg-primary hover:text-background transition-colors duration-150 uppercase tracking-widest flex items-center gap-2"
+              className="w-full sm:w-auto px-4 py-2 border border-primary text-primary font-mono-sm text-xs hover:bg-primary hover:text-background transition-colors duration-150 uppercase tracking-widest flex items-center justify-center gap-2"
             >
               <span>ACCESS_REPOSITORY</span>
               <span className="material-symbols-outlined text-xs">north_east</span>
@@ -234,7 +234,7 @@ export default function Works() {
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 border-b border-[#444748]">
             {/* Visual Telemetry Stream (Grid Left, 7 cols) */}
-            <div className="lg:col-span-7 border-r border-[#444748] flex flex-col">
+            <div className="lg:col-span-7 border-b lg:border-b-0 lg:border-r border-[#444748] flex flex-col">
               {/* Media Viewport */}
               <div className="relative aspect-video bg-[#18181b] overflow-hidden">
                 {viewMode === "image" ? (
