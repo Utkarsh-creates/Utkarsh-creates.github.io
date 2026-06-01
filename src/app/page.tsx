@@ -130,6 +130,23 @@ export default function Home() {
                     and functional clarity.
                   </p>
                 </div>
+                <div>
+                  <span className="font-mono-sm text-[11px] tracking-wider text-on-surface-variant block mb-2 uppercase opacity-60">
+                    ACCESS_CV
+                  </span>
+                  <a
+                    href="/Utkarsh-Mishra-CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download="Utkarsh_Mishra_CV.pdf"
+                    className="group inline-flex items-center gap-3 px-4 py-2 border border-[#444748] text-primary hover:border-primary hover:bg-white/[0.02] transition-mechanical text-xs font-mono-sm uppercase tracking-wider"
+                  >
+                    <span>Download CV</span>
+                    <span className="material-symbols-outlined text-[16px] text-primary opacity-50 group-hover:opacity-100 transition-mechanical">
+                      download
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="mt-auto pt-16">
