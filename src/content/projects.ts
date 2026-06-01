@@ -25,7 +25,7 @@ export const projectsData: Project[] = [
     summary: "A custom-designed 4+1 Degrees of Freedom robotic manipulator built via Fusion 360 and 3D printing. While initial integration explored ROS2 architectures, the operational framework was successfully deployed utilizing a high-performance Python control GUI on a PC communicating directly over serial with an ESP32 microcontroller to execute smooth multi-axis coordinated trajectories.",
     imagePath: "/images/projects/viper_chassis.png", 
     githubUrl: "https://github.com/utkarshmishra72005/project-viper",
-    linkedinEmbedUrl: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:your_viper_video_id",
+    linkedinEmbedUrl: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7458298367035473920?compact=1",
     radarMetrics: [
       { subject: "Embedded C++", value: 90 },
       { subject: "Python GUI", value: 85 },
@@ -72,7 +72,7 @@ export const projectsData: Project[] = [
     summary: "Developed a hardware-based Leaky Integrate and Fire (LIF) biological neuron utilizing discrete analog electronic circuits. Accidental acoustic impact sound signatures were captured via a microphone and run through a lightweight k-NN classification algorithm to execute instantaneous edge material matching.",
     imagePath: "/images/projects/neuromorphic_lif.png",
     githubUrl: "https://github.com/utkarshmishra72005/material-spikes",
-    linkedinEmbedUrl: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:your_spikes_video_id",
+    linkedinEmbedUrl: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7393937074938195968?compact=1",
     radarMetrics: [
       { subject: "Analog Circuits", value: 95 },
       { subject: "Edge ML (k-NN)", value: 80 },
@@ -95,7 +95,7 @@ export const projectsData: Project[] = [
     summary: "Designed and built an environmental mesh monitoring system leveraging multiple microcontrollers. Individual nodes acquire air metrics simultaneously, piping telemetry data straight to a web browser running a custom Three.js environment for virtual room diagnostics.",
     imagePath: "/images/projects/iot_air.png",
     githubUrl: "https://github.com/utkarshmishra72005/multi-device-aqi-iot",
-    linkedinEmbedUrl: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:your_iot_video_id",
+    linkedinEmbedUrl: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7326825056624422912?compact=1",
     radarMetrics: [
       { subject: "IoT / Mesh Webs", value: 95 },
       { subject: "Frontend (Three.js)", value: 80 },

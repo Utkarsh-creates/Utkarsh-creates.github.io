@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
+import SocialHud from "@/components/layout/SocialHud";
 import PageAnimate from "@/components/layout/PageAnimate";
 
 const geistSans = Geist({
@@ -49,6 +50,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${jetbrainsMono.variable} antialiased selection:bg-primary selection:text-surface relative`}
       >
         <Navbar />
+        <SocialHud />
         <PageAnimate>
           {children}
         </PageAnimate>

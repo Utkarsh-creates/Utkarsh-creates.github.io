@@ -19,12 +19,22 @@ export const contactData: ContactMetadata = {
     {
       label: "LINKEDIN // PROFILE_VERIFICATION",
       code: "LN",
-      url: "https://linkedin.com/in/your-profile-handle" // Replace with your link
+      url: "https://www.linkedin.com/in/utkarsh-mishra-creates"
     },
     {
       label: "INSTAGRAM // ART_STUDIO_FEED",
       code: "IG",
-      url: "https://instagram.com/your-art-handle" // Replace with your link
+      url: "https://www.instagram.com/theutkarsh_mishra/"
+    },
+    {
+      label: "GITHUB // CODE_REPOSITORY",
+      code: "GH",
+      url: "https://github.com/Utkarsh-creates"
+    },
+    {
+      label: "EMAIL // UTKARSHMISHRA72005@GMAIL.COM",
+      code: "MAIL",
+      url: "mailto:utkarshmishra72005@gmail.com"
     }
   ]
 };
