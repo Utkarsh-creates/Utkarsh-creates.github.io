@@ -56,7 +56,7 @@ export default function Home() {
 
       {/* BACKGROUND PROFILE IMAGE CONTAINER - ABSOLUTE WITH BOTTOM-FADING LINEAR ALPHA MASK */}
       <div
-        className="absolute top-0 left-0 w-full md:w-[58.33%] h-[85vh] pointer-events-none z-0 overflow-hidden"
+        className="absolute top-0 left-0 w-full md:w-[58.33%] h-[50vh] md:h-[85vh] pointer-events-none z-0 overflow-hidden"
         style={{
           maskImage: "linear-gradient(to bottom, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 100%)",
           WebkitMaskImage: "linear-gradient(to bottom, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 100%)",

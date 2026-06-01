@@ -227,7 +227,8 @@ export default function Works() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-4 py-2 border border-primary text-primary font-mono-sm text-xs hover:bg-primary hover:text-background transition-colors duration-150 uppercase tracking-widest flex items-center justify-center gap-2"
             >
-              <span>ACCESS_REPOSITORY</span>
+              <span className="hidden sm:inline">ACCESS_REPOSITORY</span>
+              <span className="inline sm:hidden">ACCESS_REPO</span>
               <span className="material-symbols-outlined text-xs">north_east</span>
             </a>
           </div>
