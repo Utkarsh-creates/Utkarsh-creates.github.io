@@ -27,6 +27,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Utkarsh Mishra // ARCHIVAL SYSTEM",
   description: "Electronics & Instrumentation Engineer specializing in Computer Vision, Deep Learning, and Autonomous Robotics Infrastructure.",
+  icons: {
+    icon: "/images/favicon.png",
+  },
 };
 
 export default function RootLayout({
