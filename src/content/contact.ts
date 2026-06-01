@@ -14,7 +14,7 @@ export const contactData: ContactMetadata = {
   title: "Secure Terminal Link",
   systemNode: "COMMS // NODE_ROUTING",
   description: "Submit a transmission log. Inquiries route directly to a filtered mailbox channel.",
-  formspreeEndpoint: "https://formspree.io/f/your_unique_id", // Replace with your Formspree key
+  formspreeEndpoint: process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || "https://formspree.io/f/your_unique_id", // Loaded from .env.local
   socials: [
     {
       label: "LINKEDIN // PROFILE_VERIFICATION",
